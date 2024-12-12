@@ -15,7 +15,7 @@ mkdir -p $CACHE_DIR $BIN_PATH $LIB_PATH $TMP_PATH
 if [[ -f "$ENV_DIR/WKHTMLTOPDF_DOWNLOAD_URL" ]]; then
   WKHTMLTOPDF_DOWNLOAD_URL=$(cat "$ENV_DIR/WKHTMLTOPDF_DOWNLOAD_URL")
 else
-  WKHTMLTOPDF_DOWNLOAD_URL="https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb"
+  WKHTMLTOPDF_DOWNLOAD_URL="https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-3/wkhtmltox_0.12.6.1-3.bionic_ppc64el.deb"
 fi
 
 WKHTMLTOPDF_DEB="$CACHE_DIR/wkhtmltox.deb"
